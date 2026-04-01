@@ -1,3 +1,4 @@
+Important Note: The rtl is from "rmd, Javaria". I did its UVM Verification. Following are the specs provided by the designer.
 # Ethernet IP - Design Notes
 
 **Designer:** rmd, Javaria  

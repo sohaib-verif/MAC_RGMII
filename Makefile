@@ -2,6 +2,7 @@ TEST=transfer_test_32_lsb
 TIME_OUT=10000000
 build:
 	vcs -lca -kdb -timescale=1ns/1ps -f ./tb_src/build_eth.f -top testbench -ntb_opts uvm-1.2 -sverilog -cm line+cond+tgl+fsm -cm_hier config_covg.cfg -LDFLAGS -Wl,--no-as-needed -full64 -assert svaext -debug_all
+	mkdir results
 	cd ./results && rm -rf $(TEST)_build
 	cd ./results && mkdir -p $(TEST)_build
 	mv csrc* simv* -t ./results/$(TEST)_build

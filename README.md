@@ -1,4 +1,8 @@
 Important Note: The rtl is from "rmd, Javaria". I did its UVM Verification. Following are the specs provided by the designer.
+Run tests:
+        make build TEST=eth_tx_test
+	make build TEST=eth_rx_test
+	make build TEST=eth_tx_rx_test
 # Ethernet IP - Design Notes
 
 **Designer:** rmd, Javaria  
